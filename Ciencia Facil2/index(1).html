@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Login</title>
+
+		<meta http-equiv="content-language" content="pt-br">
+		<!-- <meta http-equiv="refresh" content=" 0 ;url=http://www.google.com/"> -->
+
+		<link rel="stylesheet" href="css/stylelogin.css">
+	</head>
+
+	<body>
+		<section id="login" class="login">
+			<form action="" method="post">
+				<p class="lgCAD">Login ou <button id="cadLink" class="reset" type="reset">Cadastre-se</button></p>
+
+				<input type="text" class="campo" maxlength="10" name="login" placeholder="Login" required autofocus><br>
+				<input type="password" class="campo" maxlength="6" name="senha" placeholder="Digite sua senha" required><br><br>
+
+				<a href="home.html"><input type="submit" class="btn" value="Entrar"></a>
+			</form>
+		</section>
+
+		<section id="cadastro" class="cadastro none">
+			<form action="" method="post">
+				<input type="text" class="campo" maxlength="10" name="nome" placeholder="Digite seu Nome" required autofocus><br>
+				<input type="email" class="campo" maxlength="30" name="email" placeholder="Digite seu E-Mail" required><br>
+				<input type="password" class="campo" maxlength="6" name="senha" placeholder="Digite sua Senha" required><br>
+				<input type="password" class="campo" maxlength="6" name="rptSenha" placeholder="Repita a Senha" required><br><br>
+
+				 <input type="submit" class="btn" value="Entrar">
+				<input id="cadLink2" type="reset" class="btnR" value="Cancelar">
+			</form>
+		</section>
+
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
